@@ -1,8 +1,8 @@
--- SELECT * FROM `estados`
+SELECT * FROM `estados`
 
 -- SELECT sigla, nome AS 'Nome do Estado' FROM `estados`
 -- WHERE regiao = 'Sul'
 
-SELECT id, nome, regiao, populacao FROM `estados`
-WHERE populacao >= 10
-ORDER BY populacao
+-- SELECT id, nome, regiao, populacao FROM `estados`
+-- WHERE populacao >= 10
+-- ORDER BY populacao
